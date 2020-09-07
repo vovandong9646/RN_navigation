@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import Icon from 'react-native-ionicons';
+import Ionicons from 'react-native-vector-icons/dist/Ionicons';
 
 const Header = ({ navigation, title }) => {
   const openMenu = () => {
@@ -9,7 +9,7 @@ const Header = ({ navigation, title }) => {
   return (
     <View style={styles.header}>
       <TouchableOpacity style={styles.icons} onPress={openMenu}>
-        <Icon android="md-add" size={28} color="black" />
+        <Ionicons name="menu-outline" size={20} color="black" />
       </TouchableOpacity>
       <View style={styles.headerTitle}>
         <Text style={styles.headerText}>{title}</Text>

@@ -7,7 +7,7 @@ export default function Home({ navigation }) {
     <View style={styles.container}>
       <Header title="Home" navigation={navigation} />
       <View style={styles.content}>
-        <Text style={styles.text}>Home is here!</Text>
+        <Text style={styles.text}>Home is here!!</Text>
       </View>
     </View>
   )

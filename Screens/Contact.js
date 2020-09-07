@@ -7,7 +7,7 @@ export default function Contact({ navigation }) {
     <View style={styles.container}>
       <Header title="Contact" navigation={navigation} />
       <View style={styles.content}>
-        <Text style={styles.text}>Contact is here!!!</Text>
+        <Text style={styles.text}>Contact is here!!</Text>
         <Button title="Go Back" onPress={() => navigation.goBack()} />
       </View>
     </View>
