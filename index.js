@@ -9,5 +9,6 @@ import DemoStackNavigator from './Components/DemoStackNavigator';
 import DrawerNavigation from './Components/DrawerNavigation';
 import App from './LamLai/App';
 import TabBottomNavigation from './Components/TabBottomNavigation';
+import StackNavigation from './Components/StackNavigation';
 
-AppRegistry.registerComponent(appName, () => TabBottomNavigation);
+AppRegistry.registerComponent(appName, () => StackNavigation);
